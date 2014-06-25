@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Contact.gdf_Age__c</members>
+        <members>Contact.gdf_Brand__c</members>
+        <members>Contact.gdf_Client_Segment__c</members>
+        <members>Contact.gdf_Device__c</members>
+        <members>Contact.gdf_Gender__c</members>
+        <members>Contact.gdf_Income__c</members>
+        <members>Contact.gdf_Relocation_Score__c</members>
+        <members>Contact.gdf_customer_id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>gdf_Balance__c-Balance Layout</members>
+        <members>gdf_Communication__c-Communication Layout</members>
+        <members>gdf_Local__c-Local Layout</members>
+        <members>gdf_Smart_Meter_Gas__c-Smart Meter Gas Layout</members>
+        <members>gdf_Smart_Meter_Power__c-Smart Meter Power Layout</members>
+        <members>gdf_Smart_Plugs__c-Smart Plugs Layout</members>
+        <members>gdf_Smart_Thermo__c-Smart Thermo Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>28.0</version>
+</Package>

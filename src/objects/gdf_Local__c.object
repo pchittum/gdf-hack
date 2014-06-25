@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object for Local DGF entity</description>
+    <enableActivities>true</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>gdf_Customer__c</fullName>
+        <description>foreign key to Contact</description>
+        <externalId>false</externalId>
+        <label>Customer</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Locals</relationshipLabel>
+        <relationshipName>gdf_Locals</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>gdf_Heating_Energy__c</fullName>
+        <description>Intended for the source data column &quot;heating energy&quot;</description>
+        <externalId>false</externalId>
+        <label>Heating Energy</label>
+        <picklist>
+            <picklistValues>
+                <fullName>geothermal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>heating oil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Natural gas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Heating_Mode__c</fullName>
+        <description>intended for the source data column heating_mode</description>
+        <externalId>false</externalId>
+        <label>Heating Mode</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Collective</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Hot_Water_Energy__c</fullName>
+        <description>Intended for the source data column &quot;energy hot water&quot;</description>
+        <externalId>false</externalId>
+        <label>Hot Water Energy</label>
+        <picklist>
+            <picklistValues>
+                <fullName>geothermal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>heating oil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Natural gas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Housing_Type__c</fullName>
+        <description>intended for source data column &quot;housing type&quot;</description>
+        <externalId>false</externalId>
+        <label>Housing Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Collective</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Number_Housed__c</fullName>
+        <description>intended for source data column &quot;Number_People_Household&quot;</description>
+        <externalId>false</externalId>
+        <label>Number Housed</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gdf_Occupation_Type__c</fullName>
+        <description>Intended for the source data column &quot;occupation type&quot;</description>
+        <externalId>false</externalId>
+        <label>Occupation Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>house owner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tenant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Property_Type__c</fullName>
+        <description>intended for the source data column property_type</description>
+        <externalId>false</externalId>
+        <label>Property Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>private</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Social</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_Residence_Type__c</fullName>
+        <description>Intended for the source data column &quot;residence_type&quot;</description>
+        <externalId>false</externalId>
+        <label>Residence Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>main</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>gdf_local_id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>external identifier for local record</description>
+        <externalId>true</externalId>
+        <label>local_id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Local</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>L{000000}</displayFormat>
+        <label>Local Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Locals</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>
