@@ -10,9 +10,11 @@ Please note that developer edition orgs have a small data capacity of 5MB and a 
 
 For such requests, please file an issue in this Github Repository. 
 
-Use of metadata API tools can be used to create the data model. Or you can install a package in your org by using the following link and logging into your org:
+**include your org ID or username with any requests**
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t20000000HgRJ
+Use of metadata API tools can be used to create the data model. We will shortly post a link to install this data model. 
+
+Data files are located in the data directory. 
 
 Salesforce Technical Help
 ---------------------------
