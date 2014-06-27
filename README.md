@@ -14,7 +14,7 @@ For such requests, please file an issue in this Github Repository.
 
 Use of metadata API tools can be used to create the data model. The link to install the data model is here: 
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t20000000Hhm6 
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t20000000HhmB
 
 Data files are located in the data directory. 
 
