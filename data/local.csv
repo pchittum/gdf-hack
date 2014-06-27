@@ -1,0 +1,22 @@
+local_id,customer_id,Number_people _household,occupation_type,housing_type,housing_type,property_type,heating_mode,heating_energy,Energy_hot_water
+962667169,2092325,7,house owner,main,Collective,Social,Other,Other,Other
+2043722025,18348,1,house owner,main,Individual,private,individual,Natural gas,Natural gas
+3964649808,2260128,2,house owner,main,Collective,private,individual,Natural gas,Natural gas
+608152690,2111262,2,house owner,main,Individual,private,Individual,Natural gas,Natural gas
+3296901166,2116008,4,Tenant,main,Individual,private,Individual,Natural gas,Natural gas
+141007716,1918851,4,Tenant,Secondary,Collective,Social,Individual,Natural gas,Natural gas
+3076131934,1829457,1,Tenant,main,Individual,private,Individual,Natural gas,Natural gas
+4411168273,2061861,4,house owner,main,Collective,Social,individual,Natural gas,Natural gas
+2372711713,542733,2,house owner,main,Individual,private,individual,Natural gas,Natural gas
+2745340447,542733,2,house owner,Secondary,Individual,private,individual,Natural gas,Natural gas
+1699823384,1281623,2,house owner,main,Individual,private,Other,Natural gas,Natural gas
+2454974775,1281623,1,house owner,main,Collective,private,individual,Natural gas,Natural gas
+4076553736,3607132,4,house owner,Secondary,Individual,private,individual,Natural gas,Natural gas
+3189855755,3516064,3,house owner,main,Collective,private,individual,Natural gas,Natural gas
+3052675382,1047758,2,Tenant,main,Individual,private,Individual,geothermal,geothermal
+429209478,1047758,6,Tenant,main,Collective,private,individual,Natural gas,Natural gas
+2346768875,954361,2,house owner,main,Collective,private,Other,heating oil,heating oil
+3271547620,116723,3,house owner,main,Individual,private,Other,Natural gas,Natural gas
+1016778749,116723,1,house owner,main,Individual,private,Individual,Natural gas,Natural gas
+826946220,2352486,2,house owner,Secondary,Individual,Social,Collective,geothermal,geothermal
+2945842607,2352486,2,house owner,main,Individual,private,Individual,heating oil,heating oil
