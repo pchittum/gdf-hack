@@ -13,3 +13,16 @@ For such requests, please file an issue in this Github Repository.
 Use of metadata API tools can be used to create the data model. Or you can install a package in your org by using the following link and logging into your org:
 
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t20000000HgRJ
+
+Salesforce Technical Help
+---------------------------
+You can of course ask onsite help. If you wish to benefit from the 1.5 million salesforce developers already using our technology, please post questions to the salesforce.com developer forums at developer.salesforce.com/forums
+
+Please tweet #HACKGDFSUEZ with a link to your forum post to make us aware you have done so. 
+
+For other knowledge about salesforce development visit salesforce.stackexchange.com. However we will not be monitoring this channel. 
+
+If you post in English you will likely get more help as many of the members of the forums and stackexchange do not speak French. Sorry. 
+
+
+**Check back here regularly. We will likely add more information as the hackathon progresses. **
