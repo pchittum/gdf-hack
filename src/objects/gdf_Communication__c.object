@@ -136,6 +136,11 @@
         <unique>true</unique>
     </fields>
     <label>Communication</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>CM{000000}</displayFormat>
         <label>Comm Id</label>

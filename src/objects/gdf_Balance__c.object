@@ -101,6 +101,11 @@
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <label>Balance</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>BAL{000000}</displayFormat>
         <label>Balance Code</label>

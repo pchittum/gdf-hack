@@ -35,5 +35,9 @@
         <members>gdf_Smart_Thermo__c-Smart Thermo Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
     <version>28.0</version>
 </Package>
