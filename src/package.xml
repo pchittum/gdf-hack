@@ -22,10 +22,7 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Contact-Contact %28Marketing%29 Layout</members>
-        <members>Contact-Contact %28Sales%29 Layout</members>
-        <members>Contact-Contact %28Support%29 Layout</members>
-        <members>Contact-Contact Layout</members>
+        <members>Contact-GDF Contact Layout</members>
         <members>gdf_Balance__c-Balance Layout</members>
         <members>gdf_Communication__c-Communication Layout</members>
         <members>gdf_Local__c-Local Layout</members>
